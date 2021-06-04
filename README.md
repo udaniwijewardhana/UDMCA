@@ -26,33 +26,22 @@ break-points in genomic sequences. However, it can be easily extended and applie
 
 ### cumSeg package
 
-The cumSeg package (Muggeo, 2010) estimates the of number and location of change points in mean-shift (piecewise constant) models which is useful to model genomic sequences of continuous measurements. The algorithm first estimates the highest number of change points using the efficient âsegmentedâ algorithm of Muggeo (2003) and then select some of them using a generalized BIC criterion by applying the larâs algorithm of Efron et al. (2004) (Muggeo, 2010). 
+The cumSeg package (Muggeo, 2010) estimates the of number and location of change points in mean-shift (piecewise constant) models which is useful to model genomic sequences of continuous measurements. The algorithm first estimates the highest number of change points using the efficient ‘segmented’ algorithm of Muggeo (2003) and then select some of them using a generalized BIC criterion by applying the lar’s algorithm of Efron et al. (2004) (Muggeo, 2010).
 
 ### bcp package
 
 The bcp package provides an implementation of the Barry and Hartigan (1993) product partition model for the normal errors change point problem using Markov Chain Monte Carlo. It also extends the methodology to regression models on a connected graph (Wang and Emerson, 2015) and allows estimation of change point models with multivariate responses (Erdman and Emerson, 2007).
 
-## Installation Instructions
+## Installation:
 
-### To install and explore the application in your R, you could type the following on your r console. 
+Users can launch the application by https://udani-wijewardhana.shinyapps.io/UDMCA/.
+Users can access the GitHub repository by https://github.com/uwijewardhana/UDMCA.
 
-```r
-shiny::runGitHub( "PPMCA", "uwijewardhana") 
-```
-### You can also install the "UDMCA" package and run the app on your r console following the steps below.
-
-- Download the https://github.com/uwijewardhana/UDMCA/ repository zip folder and extract.
-- Open the extracted folder and open PPMCA.Rproj.
-- Then run the below code in UDMCA.Rproj:
-                        
-```r
-devtools::install_github("uwijewardhana/PPMCA")
-library(PPMCA)
-shiny::runApp(appDir = "./app.R")
-```
 [UDMCA_manual](https://github.com/uwijewardhana/UDMCA/files/UDMCA_manual.pdf)
 
 ```r
+Authors:
+
 Udani A. Wijewardhana1, Madawa Jayawardana1, 2, 3, Denny Meyer1
 
 1 Department of Statistics, Data Science and Epidemiology, Swinburne University of Technology, Hawthorn, Victoria, Australia
