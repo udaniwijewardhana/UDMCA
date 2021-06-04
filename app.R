@@ -168,7 +168,7 @@ mainPanel(
           fluidRow(plotOutput("changepointPlot")))
 ))))
 
-### Siny server ###
+### Shiny server ###
 
 server <- function(input, output) {
   
