@@ -1,6 +1,6 @@
 # UDMCA
 
-## Single Species Univariate Changepoint Analysis
+## Univariate Changepoint Analysis
 
 UDMCA is a Shiny web application that allows to visualize changepoints by using Bayesian changepoint techniques implemented in 'changepoint', 'breakpoint', 'cumSeg' and 'bcp'. To carry out these analyses users simply need to click the buttons that create the input files required, execute the software and process the output to generate tables of values and plots with the results. Changepoint methods can be used only for a single location annual data which estimates using raw data while replacing missing values by zero. Therefore, the input data has taken as a single location to estimate changepoints. Predictors can only use with bcp method.
 
