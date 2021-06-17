@@ -32,11 +32,19 @@ The cumSeg package (Muggeo, 2010) estimates the of number and location of change
 
 The bcp package provides an implementation of the Barry and Hartigan (1993) product partition model for the normal errors change point problem using Markov Chain Monte Carlo. It also extends the methodology to regression models on a connected graph (Wang and Emerson, 2015) and allows estimation of change point models with multivariate responses (Erdman and Emerson, 2007).
 
-## Input file
-
-Users should upload a .csv file with the columns "Year" and "Count". The names are case sensitive. Sample data can be found in Data.csv file.
-
 ## Installation:
 
 - Users can launch the application by https://udani-wijewardhana.shinyapps.io/UDMCA/.
 - Users can access the GitHub repository by https://github.com/uwijewardhana/UDMCA.
+
+```r
+Authors:
+
+Udani A. Wijewardhana1, Madawa Jayawardana1, 2, 3, Denny Meyer1
+
+1 Department of Statistics, Data Science and Epidemiology, Swinburne University of Technology, Hawthorn, Victoria, Australia
+2 Peter MacCallum Cancer Centre, Melbourne 3000 Victoria, Australia
+3 Sir Peter MacCallum Department of Oncology, The University of Melbourne, Parkville 3010 Victoria, Australia
+
+* uwijewardhana@swin.edu.au
+```

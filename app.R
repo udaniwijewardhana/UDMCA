@@ -16,7 +16,7 @@ library(bcp)
 
 ui <- fluidPage(
   
-titlePanel(strong("UDM - Shiny App for Single Species Univariate Changepoint Analysis", titleWidth = 350)),
+titlePanel(strong("UDMCA - Shiny App for Single Species Univariate Changepoint Analysis", style = "color:#3474A7")),
 hr(),
   
 div(style="display: inline-block;vertical-align:top; width: 300px;", fileInput("file", "Choose data CSV File", multiple = FALSE, accept = c("text/csv", "text/comma-separated-values,text/plain", ".csv"))),
