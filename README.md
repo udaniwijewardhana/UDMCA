@@ -10,7 +10,7 @@ The application consists of 2 pages with main window:
 
 2)	Changepoint analysis page that user can choose a Bayesian changepoint method to carry out the changepoint analysis.
 
-This page gives the option to fit Bayesian changepoints for annual raw data. Since still developed univariate changepoint methods, app will consider the annual data CSV as a single located dataset. Four Bayesian changepoint packages (changepoint, breakpoint, cumSeg and bcp) could be used to find the significant changes. This page also visualizes the relevant changepoint profile plots. For bcp package user has the option to use predictor variables to analyse. As the algorithms stated in the page, user can change the relevant parameters for each method and find the best scenario.
+This page gives the option to fit Bayesian changepoints for species count data. This app has developed for univariate changepoint methods and it will consider the count data CSV as a single located dataset. It is easy to identify the changepoint locations if you use count data in ascending order with an ID (e.g. for monthly data starting from January 2002, assign 2 for February 2002). Four Bayesian changepoint packages (changepoint, breakpoint, cumSeg and bcp) could be used to find the significant changes. This page also visualizes the relevant changepoint profile plots. For bcp package user has the option to use predictor variables to analyse. As the algorithms stated in the page, user can change the relevant parameters for each method and find the best scenario.
 
 ## Changepoint packages:
 
