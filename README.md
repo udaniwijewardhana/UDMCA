@@ -35,7 +35,7 @@ The bcp package provides an implementation of the Barry and Hartigan (1993) prod
 ## Installation:
 
 - Users can launch the application by https://udani-wijewardhana.shinyapps.io/UDMCA/.
-- Users can access the GitHub repository by https://github.com/uwijewardhana/UDMCA.
+- Users can access the GitHub repository by https://github.com/udaniwijewardhana/UDMCA.
 
 ```r
 Authors:
