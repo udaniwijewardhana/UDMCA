@@ -298,7 +298,7 @@ changepoint <- reactive({
     
     if(input$changepoint == "changepoint"){
       
-    if(input$method == "Gamma"){
+    if(input$test.stat == "Gamma"){
         
     if(input$changes == "mean"){
           cpt = cpt.mean(data$Count0, penalty=input$penalty, pen.value=input$pen.value, method=input$method, Q=input$Q,
