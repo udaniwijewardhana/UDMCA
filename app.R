@@ -298,22 +298,6 @@ changepoint <- reactive({
     
     if(input$changepoint == "changepoint"){
       
-    if(input$test.stat == "Gamma"){
-        
-    if(input$changes == "mean"){
-          cpt = cpt.mean(data$Count0, penalty=input$penalty, pen.value=input$pen.value, method=input$method, Q=input$Q,
-                         test.stat=input$test.stat, class=input$class, param.estimates=input$param.estimates,
-                         shape=input$shape, minseglen=input$minseglen)
-    } else if(input$changes == "variance"){
-          cpt = cpt.var(data$Count0, penalty=input$penalty, pen.value=input$pen.value, method=input$method, Q=input$Q,
-                        test.stat=input$test.stat, class=input$class, param.estimates=input$param.estimates,
-                        shape=input$shape, minseglen=input$minseglen)
-    } else{
-          cpt = cpt.meanvar(data$Count0, penalty=input$penalty, pen.value=input$pen.value, method=input$method, Q=input$Q,
-                            test.stat=input$test.stat, class=input$class, param.estimates=input$param.estimates,
-                            shape=input$shape, minseglen=input$minseglen)
-    }} else{
-          
     if(input$changes == "mean"){
           cpt = cpt.mean(data$Count0, penalty=input$penalty, pen.value=input$pen.value, method=input$method, Q=input$Q,
                          test.stat=input$test.stat, class=input$class, param.estimates=input$param.estimates,
@@ -325,8 +309,8 @@ changepoint <- reactive({
     } else{
           cpt = cpt.meanvar(data$Count0, penalty=input$penalty, pen.value=input$pen.value, method=input$method, Q=input$Q,
                             test.stat=input$test.stat, class=input$class, param.estimates=input$param.estimates,
-                            minseglen=input$minseglen)
-          }}
+                            shape=input$shape, minseglen=input$minseglen)
+    }
     return(cpt)
       
     } else if(input$changepoint == "breakpoint"){
